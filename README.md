@@ -50,7 +50,7 @@ Sistema de territorios y clanes para proteger construcciones y organizar el PvP.
 ### 🌾 Mods de aventura y agricultura
 
 - [Farmer's Delight (Refabricated)](https://modrinth.com/mod/farmers-delight-refabricated): cocina avanzada y mecánicas de cultivo.
-- [AdventureZ](https://modrinth.com/mod/immersive-aircraft): añade nuevos enemigos y jefes.
+- [AdventureZ](https://modrinth.com/mod/adventurez): añade nuevos enemigos y jefes.
 
 ---
 
@@ -64,7 +64,7 @@ Sistema de territorios y clanes para proteger construcciones y organizar el PvP.
 
 - [Magnum Torch](https://modrinth.com/mod/magnum-torch): evita el respawn de mobs cerca de tus bases.
 - [PlasmoVoice](https://modrinth.com/plugin/plasmo-voice): chat de voz en proximidad.
-- [Tinkerer's Smithing](https://modrinth.com/plugin/plasmo-voice): expansión del sistema de herrería.
+- [Tinkerer's Smithing](https://modrinth.com/mod/tinkerers-smithing): expansión del sistema de herrería.
 
 ---
 
