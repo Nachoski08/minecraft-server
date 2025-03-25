@@ -1,0 +1,162 @@
+# HTML + CSS embebido basado en el contenido del archivo Markdown anterior
+
+html_content = """
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Servidor Minecraft - mc.minecraft.com</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #1e1e1e;
+            color: #f1f1f1;
+            margin: 0;
+            padding: 2rem;
+            line-height: 1.6;
+        }
+        h1, h2, h3 {
+            color: #00ddff;
+        }
+        a {
+            color: #00aaff;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 1rem 0;
+        }
+        th, td {
+            padding: 0.6rem;
+            border: 1px solid #555;
+        }
+        th {
+            background-color: #333;
+        }
+        code {
+            background-color: #333;
+            padding: 0.2rem 0.4rem;
+            border-radius: 4px;
+            font-family: monospace;
+        }
+        .section {
+            margin-top: 2rem;
+        }
+        .emoji {
+            font-size: 1.2em;
+            margin-right: 0.3em;
+        }
+        .footer {
+            margin-top: 4rem;
+            font-size: 0.9em;
+            color: #aaa;
+        }
+    </style>
+</head>
+<body>
+
+<h1>🌍 Servidor Minecraft: mc.minecraft.com</h1>
+<p>¡Bienvenido/a al servidor de Minecraft gestionado con mods y funcionalidades pensadas para una experiencia de supervivencia, construcción, automatización y PVP organizada!</p>
+
+<div class="section">
+    <h2>📁 Recursos de instalación</h2>
+    <p>Puedes descargar la carpeta <code>.minecraft</code> con todos los <strong>mods, resource packs y shaderpacks</strong> desde este enlace:</p>
+    <p>👉 <a href="https://drive.google.com/file/d/1ZoGpN_L8nMh7TEcBw3Sz72ls75TdRgPE/view?usp=sharing" target="_blank">Descargar desde Google Drive</a></p>
+    <p>Colócala directamente en tu launcher para entrar sin problemas.</p>
+</div>
+
+<div class="section">
+    <h2>🔧 Datos técnicos del servidor</h2>
+    <table>
+        <tr><th>Característica</th><th>Valor</th></tr>
+        <tr><td>IP del servidor</td><td><code>mc.minecraft.com</code></td></tr>
+        <tr><td>Puerto</td><td><em>Oculto (SRV configurado)</em></td></tr>
+        <tr><td>Versión</td><td>1.20.1 (Fabric)</td></tr>
+        <tr><td>Whitelist</td><td>✅ Activa</td></tr>
+        <tr><td>Horario</td><td>9:00 AM – 2:00 AM</td></tr>
+        <tr><td>PvP</td><td>✅ Activado</td></tr>
+        <tr><td>Griefing</td><td>❌ Controlado por Factions</td></tr>
+    </table>
+</div>
+
+<div class="section">
+    <h2>🧩 Mods principales instalados</h2>
+
+    <h3>🛡️ <a href="https://modrinth.com/mod/factions" target="_blank">Factions</a></h3>
+    <p>Sistema de territorios y clanes para proteger construcciones y organizar el PvP.</p>
+    <ul>
+        <li>Cada jugador tiene <strong>4 chunks de poder inicial</strong>.</li>
+        <li>Al morir, pierdes <strong>2 chunks de poder</strong>.</li>
+        <li>Por cada hora sin morir, <strong>ganas 1 chunk de poder</strong>.</li>
+        <li>Evita el griefing fuera del PvP consensuado.</li>
+    </ul>
+
+    <h3>⚙️ Mods de automatización e ingeniería</h3>
+    <ul>
+        <li>🔧 <a href="https://modrinth.com/mod/create-fabric" target="_blank">Create</a>: construye máquinas cinéticas complejas y automatiza procesos.</li>
+        <li>🚂 <a href="https://modrinth.com/mod/create-steam-n-rails" target="_blank">Create: Steam 'n' Rails</a>: añade trenes y locomotoras.</li>
+        <li>🔌 <a href="https://modrinth.com/mod/createaddition" target="_blank">Create: Additions</a>: añade generación eléctrica y mejoras a Create.</li>
+    </ul>
+
+    <h3>🌾 Mods de aventura y agricultura</h3>
+    <ul>
+        <li>🍳 <a href="https://modrinth.com/mod/farmers-delight-refabricated" target="_blank">Farmer's Delight (Refabricated)</a>: cocina avanzada y mecánicas de cultivo.</li>
+        <li>🧟 <a href="https://modrinth.com/mod/immersive-aircraft" target="_blank">AdventureZ</a>: añade nuevos enemigos y jefes.</li>
+    </ul>
+
+    <h3>✈️ Transporte y movimiento</h3>
+    <ul>
+        <li>✈️ <a href="https://modrinth.com/mod/immersive-aircraft" target="_blank">Immersive Aircraft</a>: aviones y vuelo libre.</li>
+    </ul>
+
+    <h3>🔇 Calidad de vida</h3>
+    <ul>
+        <li>🕯️ <a href="https://modrinth.com/mod/magnum-torch" target="_blank">Magnum Torch</a>: evita el respawn de mobs cerca de tus bases.</li>
+        <li>🎙️ <a href="https://modrinth.com/plugin/plasmo-voice" target="_blank">PlasmoVoice</a>: chat de voz en proximidad.</li>
+        <li>🛠️ <a href="https://modrinth.com/plugin/plasmo-voice" target="_blank">Tinkerer's Smithing</a>: expansión del sistema de herrería.</li>
+    </ul>
+</div>
+
+<div class="section">
+    <h2>📜 Normas y convivencia</h2>
+    <ul>
+        <li>✅ PvP activado, pero estructurado mediante el sistema de Factions.</li>
+        <li>🔒 Whitelist activa: solo jugadores aprobados pueden entrar.</li>
+        <li>🕒 Horario de apertura: de <strong>9:00 AM a 2:00 AM</strong>.</li>
+        <li>🏡 Se valora el juego cooperativo y el respeto a las construcciones.</li>
+    </ul>
+</div>
+
+<div class="section">
+    <h2>🎯 Objetivo</h2>
+    <p>Este servidor busca ofrecer una experiencia completa:</p>
+    <ul>
+        <li>Supervivencia cooperativa</li>
+        <li>PvP controlado y estratégico</li>
+        <li>Automatización avanzada</li>
+        <li>Aventura y exploración</li>
+    </ul>
+</div>
+
+<div class="section">
+    <h2>📌 Contacto y comunidad</h2>
+    <p><em>Puedes añadir aquí un link a Discord, página web o contacto si lo deseas</em></p>
+</div>
+
+<div class="footer">
+    Documento generado automáticamente como portal web para el servidor <strong>mc.minecraft.com</strong>.
+</div>
+
+</body>
+</html>
+"""
+
+# Guardar el archivo HTML
+output_path = Path("/mnt/data/portal_minecraft_servidor.html")
+output_path.write_text(html_content, encoding="utf-8")
+
+output_path.name
