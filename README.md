@@ -51,12 +51,12 @@ Sistema de territorios y clanes para proteger construcciones y organizar el PvP.
 
 - [Farmer's Delight (Refabricated)](https://modrinth.com/mod/farmers-delight-refabricated): cocina avanzada y mecánicas de cultivo.
 - [AdventureZ](https://modrinth.com/mod/adventurez): añade nuevos enemigos y jefes.
-
+(Dragón tameable).
 ---
 
-### ✈️ Transporte y movimiento
+### 🛩️ Transporte y movimiento
 
-- [Immersive Aircraft](https://modrinth.com/mod/immersive-aircraft): aviones y vuelo libre.
+- [Immersive Aircraft](https://modrinth.com/mod/immersive-aircraft): avionetas y aeroplanos.
 
 ---
 
@@ -64,7 +64,7 @@ Sistema de territorios y clanes para proteger construcciones y organizar el PvP.
 
 - [Magnum Torch](https://modrinth.com/mod/magnum-torch): evita el respawn de mobs cerca de tus bases.
 - [PlasmoVoice](https://modrinth.com/plugin/plasmo-voice): chat de voz en proximidad.
-- [Tinkerer's Smithing](https://modrinth.com/mod/tinkerers-smithing): expansión del sistema de herrería.
+- [Tinkerer's Smithing](https://modrinth.com/mod/tinkerers-smithing): nuevos crafteos que te facilitarán la vida.
 
 ---
 
@@ -73,6 +73,6 @@ Sistema de territorios y clanes para proteger construcciones y organizar el PvP.
 - PvP activado, pero estructurado mediante el sistema de Factions.
 - Whitelist activa: solo jugadores aprobados pueden entrar.
 - Horario de apertura: de **9:00 AM a 2:00 AM**.
-- Se valora el juego cooperativo y el respeto a las construcciones (Porfa).
+- Se valora el juego cooperativo y el respeto a las construcciones. (Porfa).
 
 ---
