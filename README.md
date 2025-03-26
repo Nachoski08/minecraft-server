@@ -18,7 +18,7 @@ Colócala directamente en tu carpeta %appdata%.
 
 | Característica      | Valor                      |
 |---------------------|----------------------------|
-| IP del servidor     | `mc.minecraft.com`         |
+| IP del servidor     | `mc.santateclas.com`         |
 | Versión             | 1.20.1 (Fabric)            |
 | Whitelist           | ✅ Activa                  |
 | Horario             | 9:00 AM – 2:00 AM           |
